@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman Mehta - Resume</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #374151; /* Dark gray text */
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background-color: #ffffff;
+            border-radius: 12px; /* Rounded corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+            padding: 2.5rem;
+        }
+        h1 {
+            color: #1f2937; /* Darker gray for main heading */
+            font-weight: 700;
+        }
+        h2 {
+            color: #1f2937; /* Darker gray for section headings */
+            font-weight: 600;
+            margin-top: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #d1d5db; /* Light gray border */
+        }
+        .contact-info a {
+            color: #4f46e5; /* Indigo for links */
+            text-decoration: none;
+            display: inline-flex; /* For aligning icon and text */
+            align-items: center;
+        }
+        .contact-info a:hover {
+            /* No underline on hover for icon-only links */
+            text-decoration: none;
+        }
+        .section-content ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .section-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+            text-align: justify; /* Justify text */
+        }
+        .section-content p {
+            text-align: justify; /* Justify text */
+        }
+        .section-content li strong {
+            color: #1f2937;
+        }
+        .bullet-point::before {
+            content: '•';
+            color: #4f46e5; /* Indigo bullet points */
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .icon {
+            width: 18px; /* Adjust icon size */
+            height: 18px;
+            vertical-align: middle;
+            fill: #4f46e5; /* Icon color */
+        }
+        .project-link, .certification-link {
+            color: #4f46e5; /* Indigo for project and certification links */
+            text-decoration: none;
+        }
+        .project-link:hover, .certification-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="p-4">
+    <div class="container">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl mb-2">NAMAN MEHTA</h1>
+            <!-- Adjusted subtitle to try and fit on one line -->
+            <p class="text-sm text-gray-600 whitespace-nowrap overflow-hidden text-ellipsis">Computer Engineering Graduate | Data Science Enthusiast | Python, Java, and Frontend | Eager to Learn and Contribute</p>
+            <div class="contact-info mt-4 text-gray-700 text-sm flex flex-wrap justify-center gap-x-4">
+                <span>mehtanaman226@gmail.com</span>
+                <span>|</span>
+                <span>9136503031</span>
+                <span>|</span>
+                <!-- LinkedIn Icon Link (text removed) -->
+                <a href="https://linkedin.com/in/namanmehtacse" target="_blank" rel="noopener noreferrer">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                    </svg>
+                </a>
+                <span>|</span>
+                <!-- GitHub Icon Link (text removed) -->
+                <a href="https://github.com/Naman2206" target="_blank" rel="noopener noreferrer">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+        <section class="mb-6">
+            <h2 class="text-2xl">EDUCATION</h2>
+            <div class="section-content mt-4">
+                <p class="mb-1"><strong class="bullet-point">Computer Science and Engineering (Data Science)</strong> | CGPA: 7.2</p>
+                <p class="text-gray-600 ml-4">Vidyavardhini's College Of Engineering And Technology | 2020 - 2024</p>
+                <p class="mb-1"><strong class="bullet-point">HSC</strong> | S.V.P Junior College | 2020</p>
+                <p class="mb-1"><strong class="bullet-point">SSC</strong> | D'silva High School | 2018</p>
+            </div>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl">EXPERIENCE</h2>
+            <div class="section-content mt-4">
+                <h3 class="text-xl font-medium mb-2">Assistant System Engineer | TCS | <span class="text-gray-600">Aug 2024 - Present</span></h3>
+                <ul class="list-disc pl-5 text-gray-700">
+                    <li class="bullet-point">Developed and assured the quality of a banking platform, leveraging Java and COBOL frameworks, enhancing system performance and accuracy by 30% reduction in reported issues.</li>
+                    <li class="bullet-point">Completed comprehensive training in SQL, Java, Python, and Cybersecurity IAM (Okta), applying acquired skills to real-world scenarios.</li>
+                    <li class="bullet-point">Optimized project delivery within an Agile environment and enhanced system integrations for seamless operations.</li>
+                    <li class="bullet-point">Collaborated on multiple software development projects, contributing to debugging and troubleshooting tasks, significantly improving system reliability.</li>
+                </ul>
+
+                <h3 class="text-xl font-medium mt-4 mb-2">AI Research Intern | Renix Informatics | <span class="text-gray-600">Feb 2024 - April 2024</span></h3>
+                <ul class="list-disc pl-5 text-gray-700">
+                    <li class="bullet-point">Developed and implemented FastAPI endpoints for production APIs, enhancing scalability and deployment efficiency for AI models.</li>
+                    <li class="bullet-point">Collaborated with cross-functional teams to gather requirements, design solutions, and integrate machine learning models into FastAPI using Python and relevant libraries.</li>
+                    <li class="bullet-point">Contributed to testing, debugging, and documentation efforts, actively participating in team meetings and planning sessions.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl">PROJECTS</h2>
+            <div class="section-content mt-4">
+                <h3 class="text-xl font-medium mb-2">
+                    <a href="https://github.com/Naman2206/CarMetrics/blob/main/README.md" target="_blank" rel="noopener noreferrer" class="project-link">
+                        CarMetrics
+                    </a> - Scalable Sales Data Processing Using Microsoft Azure
+                </h3>
+                <ul class="list-disc pl-5 text-gray-700">
+                    <li class="bullet-point">Developed an end-to-end Azure-based data pipeline for vehicle sales metrics using Medallion Architecture, Azure Data Factory, Databricks, SQL Server, and Power BI.</li>
+                    <li class="bullet-point">Enabled real-time insights, incremental data processing, and anomaly detection for performance monitoring.</li>
+                </ul>
+
+                <h3 class="text-xl font-medium mt-4 mb-2">Netflix Streaming Data Engineering Project</h3>
+                <ul class="list-disc pl-5 text-gray-700">
+                    <li class="bullet-point">Developed scalable data pipelines using Azure Data Factory, Databricks, and Azure Synapse Analytics.</li>
+                    <li class="bullet-point">Utilized Delta Lake and Data Lakehouse for efficient incremental data ingestion and transformation, along with streaming insights and analytics in the cloud.</li>
+                </ul>
+
+                <h3 class="text-xl font-medium mt-4 mb-2">Decentralized Social Media - Polygon Blockchain, Lens Protocol</h3>
+                <ul class="list-disc pl-5 text-gray-700">
+                    <li class="bullet-point">Developed a decentralized social media platform on Polygon blockchain using Lens Protocol for a censorship-resistant environment and social graph.</li>
+                    <li class="bullet-point">Implemented features like post sharing, commenting, liking, mirroring, user follows, GraphQL APIs, and IPFS for decentralized content storage.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl">TECHNICAL SKILLS</h2>
+            <div class="section-content mt-4 text-gray-700">
+                <p><strong class="bullet-point">Programming Languages:</strong> Python, Java, SQL</p>
+                <p><strong class="bullet-point">Web Technologies:</strong> HTML, CSS, JavaScript, FastAPI</p>
+                <p><strong class="bullet-point">Cloud & Big Data:</strong> Microsoft Azure (Azure Data Factory, Databricks, Azure Synapse Analytics), PySpark, Delta Lake, Data Lakehouse</p>
+                <p><strong class="bullet-point">Databases:</strong> SQL Server</p>
+                <p><strong class="bullet-point">Tools & Libraries:</strong> Git, Okta, NumPy, Pandas, PyPlot, Power BI, GraphQL APIs, IPFS</p>
+                <p><strong class="bullet-point">Platforms & Environments:</strong> Google Colab, Jupyter Notebooks</p>
+            </div>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl">COURSES & CERTIFICATIONS</h2>
+            <div class="section-content mt-4">
+                <ul class="list-disc pl-5 text-gray-700">
+                    <li class="bullet-point">
+                        Postman API Fundamentals Student Expert (<a href="https://badgr.com/public/assertions/zb7ry6QBQ_G0tl8cyzb34A?identity__email=naman.203348101@gmail.com" target="_blank" rel="noopener noreferrer" class="certification-link">Postman</a>)
+                    </li>
+                    <li class="bullet-point">
+                        SQL (Basic) Certificate (<a href="https://www.hackerrank.com/certificates/iframe/d13f83ab3f2c" target="_blank" rel="noopener noreferrer" class="certification-link">HackerRank</a>)
+                    </li>
+                    <li class="bullet-point">
+                        Taming Big Data with Apache Spark (<a href="https://www.udemy.com/certificate/UC-3e750e9c-7706-4a07-83c5-cb0724776471/" target="_blank" rel="noopener noreferrer" class="certification-link">Udemy</a>)
+                    </li>
+                    <li class="bullet-point">
+                        Python for Data Science and AI (<a href="https://www.credly.com/badges/2fd2c7c6-4b6b-439f-83ff-fdcf870f1eba/linked_in_profile" target="_blank" rel="noopener noreferrer" class="certification-link">Coursera</a>)
+                    </li>
+                    <li class="bullet-point">
+                        Practical Web Development: 22 Courses in 1 (<a href="https://www.udemy.com/certificate/UC-32e36971-c818-4f46-b7e2-cef98cac282d/" target="_blank" rel="noopener noreferrer" class="certification-link">Udemy</a>)
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl">ACTIVITIES & ACHIEVEMENTS</h2>
+            <div class="section-content mt-4">
+                <ul class="list-disc pl-5 text-gray-700">
+                    <li class="bullet-point"><strong class="bullet-point">OSCILLATION - (Paper Showcase):</strong> Presented final project on Web3 Social Media at a national-level paper showcase event.</li>
+                    <li class="bullet-point"><strong class="bullet-point">Viral Fission - (Social Marketing Ambassador):</strong> Raised brand awareness and promoted brands on social media for increased visibility.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
